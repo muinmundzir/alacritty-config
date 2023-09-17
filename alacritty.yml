@@ -1,0 +1,130 @@
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  size: 15
+
+  offset:
+    y: 1
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  title: ""
+  decorations: None
+  dimensions:
+    columns: 173
+    lines: 48
+  padding:
+    x: 10
+    y: 10
+  opacity: 0.94
+
+# TokyoNight Alacritty Theme
+# colors:
+# Default colors
+# primary:
+#   background: "0x1a1b26"
+#   foreground: "0xc0caf5"
+
+# Normal colors
+# normal:
+#   black: "0x15161e"
+#   red: "0xf7768e"
+#   green: "0x9ece6a"
+#   yellow: "0xe0af68"
+#   blue: "0x7aa2f7"
+#   magenta: "0xbb9af7"
+#   cyan: "0x7dcfff"
+#   white: "0xa9b1d6"
+
+# Bright colors
+# bright:
+#   black: "0x414868"
+#   red: "0xf7768e"
+#   green: "0x9ece6a"
+#   yellow: "0xe0af68"
+#   blue: "0x7aa2f7"
+#   magenta: "0xbb9af7"
+#   cyan: "0x7dcfff"
+#   white: "0xc0caf5"
+#
+# indexed_colors:
+#   - { index: 16, color: "0xff9e64" }
+#   - { index: 17, color: "0xdb4b4b" }
+
+# Kanagawa Alacritty Colors
+# colors:
+#   primary:
+#     background: "0x1f1f28"
+#     foreground: "0xdcd7ba"
+#
+#   normal:
+#     black: "0x090618"
+#     red: "0xc34043"
+#     green: "0x76946a"
+#     yellow: "0xc0a36e"
+#     blue: "0x7e9cd8"
+#     magenta: "0x957fb8"
+#     cyan: "0x6a9589"
+#     white: "0xc8c093"
+#
+#   bright:
+#     black: "0x727169"
+#     red: "0xe82424"
+#     green: "0x98bb6c"
+#     yellow: "0xe6c384"
+#     blue: "0x7fb4ca"
+#     magenta: "0x938aa9"
+#     cyan: "0x7aa89f"
+#     white: "0xdcd7ba"
+#
+#   selection:
+#     background: "0x2d4f67"
+#     foreground: "0xc8c093"
+#
+# indexed_colors:
+#   - { index: 16, color: "0xffa066" }
+#   - { index: 17, color: "0xff5d62" }
+
+# Colors (Solarized Dark)
+colors:
+  # Default colors
+  primary:
+    background: "0x001217"
+    foreground: "0x708183"
+
+  # Normal colors
+  normal:
+    black: "0x002b36"
+    red: "0xdc322f"
+    green: "0x859900"
+    yellow: "0xb58900"
+    blue: "0x268bd2"
+    magenta: "0xd33682"
+    cyan: "0x2aa198"
+    white: "0xeee8d5"
+
+  # Bright colors
+  bright:
+    black: "0x002b36"
+    red: "0xcb4b16"
+    green: "0x586e75"
+    yellow: "0x657b83"
+    blue: "0x839496"
+    magenta: "0x6c71c4"
+    cyan: "0x93a1a1"
+    white: "0xfdf6e3"
+
+env:
+  TERM: alacritty
+
+shell:
+  program: /bin/fish
+  args:
+    - -l
+    - -c
+    - tmux
